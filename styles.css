@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  body {
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white(110, 55, 55);
+}
+
+.egg {
+    border-radius: 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+      }
+      
+      .column {
+        flex: 1;
+        padding: 10px;
+      }
